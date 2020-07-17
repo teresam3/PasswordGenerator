@@ -39,4 +39,4 @@ I also added a link to bootstrap since I planned on using it for styling the pag
 
 Next I added the text onto my html that'll provide the user with context and directions as to how to create a password for themselves. As well as a navbar that I acquired from bootstrap.
 
-Next I styled the page simply to improve user interaction.
+Next I styled the page simply to improve user interaction. 
