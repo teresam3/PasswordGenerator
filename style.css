@@ -1,9 +1,20 @@
 .main {
     background-color: lightblue;
-    padding: 33%;
-    padding-top: 0%;
+    padding: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .navbar {
     font-family: sans-serif;
-    position: relative;
+    padding-bottom: 5px;
+}
+.display {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.button {
+    padding: 2px;
+    background-color: red;
+    margin-top: 10px;
 }
