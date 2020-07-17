@@ -35,4 +35,8 @@ In order to create a random password generator I first created individual files 
 
 Then I proceeded to link both the css and javascript files onto my html thus creating external css and javascript files. 
 
-Next I added the text onto my html that'll provide the user with context and directions as to how to create a password for themselves.
+I also added a link to bootstrap since I planned on using it for styling the page. 
+
+Next I added the text onto my html that'll provide the user with context and directions as to how to create a password for themselves. As well as a navbar that I acquired from bootstrap.
+
+Next I styled the page simply to improve user interaction.
