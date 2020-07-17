@@ -29,3 +29,10 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+
+In order to create a random password generator I first created individual files for html, css, and javascript. 
+
+Then I proceeded to link both the css and javascript files onto my html thus creating external css and javascript files. 
+
+Next I added the text onto my html that'll provide the user with context and directions as to how to create a password for themselves.
