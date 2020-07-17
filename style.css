@@ -1,3 +1,9 @@
 .main {
     background-color: lightblue;
+    padding: 33%;
+    padding-top: 0%;
+}
+.navbar {
+    font-family: sans-serif;
+    position: relative;
 }
