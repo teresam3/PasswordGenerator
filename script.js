@@ -1,6 +1,6 @@
 var numChar = prompt("How many characters?")
-var askLow = confirm("Would you like lower case letters?")
-var askUpp = confirm("Would you upper case letters?")
+///var askLow = confirm("Would you like lower case letters?")
+//var askUpp = confirm("Would you upper case letters?")
 var lowCase = ("abcdefghijklmnopqrstuvwyx".split(""))
 var uppCase = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""))
 var specChar = ("!@#$%&".split(""))
@@ -12,19 +12,17 @@ var display = document.getElementById("#display")
 
 //the max and min limits of the intial prompt
 if (numChar < 8 || numChar > 128) { ;
-    alert("another number") ;
+    alert("another number") ; 
 } 
 
-display.addEventListener("click", function(e) {
- ;
-} )
-
-    for (var i = 0; i < numChar; i++) {
-    var passwordAll = lowCase[Math.floor(Math.random() * lowCase.length)] ;
+for (var i = 0; i < numChar; i++) {
+ var passwordAll = lowCase[Math.floor(Math.random() * lowCase.length)] ;
         
-     password.push(passwordAll) ;
+ password.push(passwordAll) ;
 
-    console.log(password.join("")    
+ console.log(password.join(""));
+
+ }
      
     // }
     //  for (var j = 0; j < numChar; j++) {
