@@ -50,8 +50,8 @@ button.addEventListener("click", function(e) {
  for (var i = 0; i < numChar; i++) {
      password = password + characters[Math.floor(Math.random() * characters.length)]
  }
-//  function finalPassword() {
-//     document.getElementById("display").innerHTML
-//      = password;
-//   }
+ console.log(password)
+display.value = password
 })
+
+
