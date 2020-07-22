@@ -30,6 +30,17 @@ THEN the password is either displayed in an alert or written to the page
 
 In order to create a random password generator I first created individual files for html, css, and javascript. 
 Then I proceeded to link both the css and javascript files onto my html thus creating external css and javascript files. I also added a link to bootstrap since I planned on using it for styling the page. 
+
 Next I added the text onto my html that'll provide the user with context and directions as to how to create a password for themselves. As well as a navbar that I acquired from bootstrap.
+
 Next I styled the page simply to improve user interaction. 
 With the javascript, I first created the variables for the prompts then for all the characters that are asked for. I then created an if/else statment for the amount of characters that then allows the other functions to go forward. I then added an event for the button to click initiate all the conditions for what characters the user wants included in order to generate a password. Once it is initiated if/else statements will decide what to include into the final password. All of these conditions then go into the for loop to actually generate a random password. 
+
+In order to display the final password onto my html for the user to see I had previously defined the display variable and then I had called the input box by id in order to change value. To do that I added one final function that changes value to the password that was defined in the last for loop.
+
+[image of final project]
+(./images/final.png)
+
+github repo : https://github.com/teresam3/PasswordGenerator
+
+final project : https://teresam3.github.io/PasswordGenerator/
